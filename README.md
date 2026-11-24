@@ -2,7 +2,7 @@
 
 > A maintained index of the protocols, SDKs, open source implementations, research and current developments behind agentic commerce: AI agents that discover, compare and buy on behalf of people and businesses.
 
-Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The index is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last generated: **2026-11-24**.
+Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The index is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-20**.
 
 ## Contents
 
