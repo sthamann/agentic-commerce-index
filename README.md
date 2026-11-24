@@ -21,6 +21,9 @@ Every protocol entry links to its specification, repository, licence and release
 - [UCP, MCP and ACP compared: Choosing protocols for your shop](https://www.agentic-commerce.sh/en/guides/ucp-mcp-acp-comparison/) - Which protocol does which job in a shop.
 - [How do agentic checkout and payments work?](https://www.agentic-commerce.sh/en/guides/agentic-checkout-and-payments/) - How an agent checks out and pays.
 - [Agentic commerce examples for merchants](https://www.agentic-commerce.sh/en/guides/agentic-commerce-examples/) - Examples by industry.
+- [Which payment providers support purchases by AI agents?](https://www.agentic-commerce.sh/en/guides/payment-providers-for-agent-purchases/) - Card networks and payment providers for agent purchases compared.
+- [How can a shop tell approved shopping agents from bots?](https://www.agentic-commerce.sh/en/guides/tell-shopping-agents-from-bots/) - Web Bot Auth and how a shop recognises approved agents.
+- [Agentic commerce statistics 2026: What do the numbers show?](https://www.agentic-commerce.sh/en/guides/agentic-commerce-statistics/) - Key figures with source and date.
 - [Glossary](https://www.agentic-commerce.sh/en/glossary/) - Agentic commerce terms from A to Z.
 
 ## Protocols
@@ -209,6 +212,7 @@ Announcements from the last weeks, each with the original source and a short ana
 - **2026-11-05** · [When the shopping agent buys anyway: What Visa’s test shows](https://visa.gcs-web.com/news-releases/news-release-details/visa-releases-first-its-kind-industry-benchmark-ai-shopping) · [Analysis](https://www.agentic-commerce.sh/en/news/visa-benchmark/)
 - **2026-11-04** · [Amazon Shop Direct opens a new route for independent merchants](https://www.aboutamazon.com/news/retail/amazon-shop-direct-merchant-workspace) · [Analysis](https://www.agentic-commerce.sh/en/news/amazon-shop-direct/)
 - **2026-11-04** · [Google brings UCP checkout to Canada](https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/) · [Analysis](https://www.agentic-commerce.sh/en/news/google-ucp-canada/)
+- **2026-11-03** · [Zalando Extended: Zalando’s agent will shop at Westwing from 2027](https://www.webdisclosure.com/press-release/zalando-se-etr-de000zal-zalando-grows-profitably-in-q3-driven-by-very-strong-b2b-expansion-and-continues-innovating-through-ai-with-zalando-extended-huj09XBfJfh) · [Analysis](https://www.agentic-commerce.sh/en/news/zalando-extended-westwing-agent/)
 - **2026-11-02** · [Bright Shelf: How Shopware’s lab is exploring AI product visuals](https://www.shopware.com/en/news/shopware-6-release-news-november-2026/) · [Analysis](https://www.agentic-commerce.sh/en/news/bright-shelf/)
 - **2026-11-02** · [What early agent orders tell us about checkout](https://www.forter.com/blog/ai-agent-order-data/) · [Analysis](https://www.agentic-commerce.sh/en/news/forter-orders/)
 
