@@ -1,0 +1,43 @@
+name: Update index
+
+# Copies the README that agentic-commerce.sh publishes with every build.
+# Runs daily and can be started by hand; commits only when the content changed.
+on:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the published README
+        run: |
+          curl --fail --silent --show-error --location --retry 3 \
+            https://www.agentic-commerce.sh/data/agentic-commerce-index.md -o README.new
+          # Guard against an error page or a truncated download.
+          head -1 README.new | grep -q '^# Agentic Commerce Index'
+          [ "$(wc -c < README.new)" -gt 10000 ]
+          mv README.new README.md
+
+      - name: Commit when changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update index from agentic-commerce.sh"
+          git push
