@@ -1,8 +1,8 @@
-# Agentic Commerce Index [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Agentic Commerce: Protocols, Payments and Tools (2026) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A maintained index of the protocols, SDKs, open source implementations, research and current developments behind agentic commerce: AI agents that discover, compare and buy on behalf of people and businesses.
+> A curated list of the protocols, SDKs, payment providers, open source implementations, research and current developments behind agentic commerce: AI agents that discover, compare and buy on behalf of people and businesses. Updated daily.
 
-Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The index is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-20**.
+Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The list is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-23**.
 
 ## Contents
 
@@ -182,6 +182,8 @@ Reference implementations and tools from the [Shopware Agentic Commerce Lab](htt
 
 Announcements from the last weeks, each with the original source and a short analysis for merchants.
 
+- **2026-11-23** · [Meta Muse can shop through Walmart’s Agent Gateway](https://www.walmart.com/cp/walmart-agent-gateway/1280482) · [Analysis](https://www.agentic-commerce.sh/en/news/walmart-muse-agent-gateway/)
+- **2026-11-23** · [How shopping agents choose what to buy and where to buy it](https://a16z.com/welcome-to-the-b2a-economy-how-agents-buy/) · [Analysis](https://www.agentic-commerce.sh/en/news/a16z-test-einkaufsagenten-haendlerwahl/)
 - **2026-11-20** · [How far can AI agents get in German online shops?](https://i22.ai/agentic-commerce-readiness-studie) · [Analysis](https://www.agentic-commerce.sh/en/news/i22-studie-agentic-commerce-deutschland/)
 - **2026-11-20** · [Black Friday 2026: What AI price comparisons need to see](https://group.dhl.com/en/media-relations/press-releases/2026/nearly-nine-in-ten-shoppers-use-or-plan-to-use-ai-to-find-the-best-price.html) · [Analysis](https://www.agentic-commerce.sh/en/news/black-friday-2026-ki-preisvergleich/)
 - **2026-11-20** · [Stripe’s Link Agent Wallet data puts travel first by spend](https://x.com/ernietedeschi/article/2123852064027471901) · [Analysis](https://www.agentic-commerce.sh/en/news/stripe-link-agent-wallet-ausgaben-reisen/)
@@ -206,7 +208,7 @@ Announcements from the last weeks, each with the original source and a short ana
 - **2026-11-11** · [Digital Fairness Act: What the EU proposal means for shopping agents and merchants](https://commission.europa.eu/document/download/0575d59f-554f-4a9e-b54b-e6b717175809_en?filename=Proposal+for+a+Digital+Fairness+Act_0.pdf) · [Analysis](https://www.agentic-commerce.sh/en/news/digital-fairness-act-einkaufsagenten/)
 - **2026-11-10** · [The End of Software as We Know It](https://www.linkedin.com/pulse/end-software-we-know-stefan-hamann-z81he/) · [Analysis](https://www.agentic-commerce.sh/en/news/holodeck/)
 - **2026-11-10** · [mate brings a shopping agent into the messaging thread](https://www.einnews.com/pr_news/955148658/mate-launches-text-based-ai-shopping-agent-ahead-of-black-friday) · [Analysis](https://www.agentic-commerce.sh/en/news/mate-shopping-agent-chat/)
-- **2026-11-10** · [OpenAI opens Business Hub and introduces merchant agents in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt/) · [Analysis](https://www.agentic-commerce.sh/en/news/openai-business-hub-agenten/)
+- **2026-11-10** · [ChatGPT Business Hub: Business Agents expand beyond the US](https://openai.com/index/introducing-businesses-chatgpt/) · [Analysis](https://www.agentic-commerce.sh/en/news/openai-business-hub-agenten/)
 - **2026-11-09** · [What AI says about a brand: Gartner examines how marketing teams respond](https://www.gartner.com/en/newsroom/press-releases/2026-11-09-gartner-survey-finds-42-percent-of-cmos-are-monitoring-brand-misinformation-in-ai-generated-content) · [Analysis](https://www.agentic-commerce.sh/en/news/gartner-ki-markeninformationen/)
 - **2026-11-06** · [Shopping by message: Alexa for Shopping moves into the chat](https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop) · [Analysis](https://www.agentic-commerce.sh/en/news/alexa-text/)
 - **2026-11-05** · [When the shopping agent buys anyway: What Visa’s test shows](https://visa.gcs-web.com/news-releases/news-release-details/visa-releases-first-its-kind-industry-benchmark-ai-shopping) · [Analysis](https://www.agentic-commerce.sh/en/news/visa-benchmark/)
