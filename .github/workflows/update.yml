@@ -26,7 +26,7 @@ jobs:
           curl --fail --silent --show-error --location --retry 3 \
             https://www.agentic-commerce.sh/data/agentic-commerce-index.md -o README.new
           # Guard against an error page or a truncated download.
-          head -1 README.new | grep -q '^# Agentic Commerce Index'
+          head -1 README.new | grep -q '^# Awesome Agentic Commerce'
           [ "$(wc -c < README.new)" -gt 10000 ]
           mv README.new README.md
 
