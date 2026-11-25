@@ -2,7 +2,7 @@
 
 > A curated list of the protocols, SDKs, payment providers, open source implementations, research and current developments behind agentic commerce: AI agents that discover, compare and buy on behalf of people and businesses. Updated daily.
 
-Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The list is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-23**.
+Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The list is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-25**.
 
 ## Contents
 
@@ -182,8 +182,11 @@ Reference implementations and tools from the [Shopware Agentic Commerce Lab](htt
 
 Announcements from the last weeks, each with the original source and a short analysis for merchants.
 
+- **2026-11-25** · [Forter tracks agent orders through store pages and commerce protocols](https://ai.forter.com/agentic-bfcm) · [Analysis](https://www.agentic-commerce.sh/en/news/forter-agentenbestellungen-checkout-wege/)
+- **2026-11-24** · [Meta Muse can put together a weekly shop at Sainsbury’s](https://corporate.sainsburys.co.uk/news/press-releases/muse-from-meta-gives-customers-even-more-choice-in-how-they-shop-with-sainsbury-s/) · [Analysis](https://www.agentic-commerce.sh/en/news/meta-muse-sainsburys-wocheneinkauf/)
 - **2026-11-23** · [Meta Muse can shop through Walmart’s Agent Gateway](https://www.walmart.com/cp/walmart-agent-gateway/1280482) · [Analysis](https://www.agentic-commerce.sh/en/news/walmart-muse-agent-gateway/)
 - **2026-11-23** · [How shopping agents choose what to buy and where to buy it](https://a16z.com/welcome-to-the-b2a-economy-how-agents-buy/) · [Analysis](https://www.agentic-commerce.sh/en/news/a16z-test-einkaufsagenten-haendlerwahl/)
+- **2026-11-23** · [PayPal sets refund and seller protection terms for agentic virtual cards](https://www.paypalobjects.com/marketing/ua/OA/agentic-commerce-merchant-vc-tnc/en-US-112326.pdf) · [Analysis](https://www.agentic-commerce.sh/en/news/paypal-agentic-virtual-card/)
 - **2026-11-20** · [How far can AI agents get in German online shops?](https://i22.ai/agentic-commerce-readiness-studie) · [Analysis](https://www.agentic-commerce.sh/en/news/i22-studie-agentic-commerce-deutschland/)
 - **2026-11-20** · [Black Friday 2026: What AI price comparisons need to see](https://group.dhl.com/en/media-relations/press-releases/2026/nearly-nine-in-ten-shoppers-use-or-plan-to-use-ai-to-find-the-best-price.html) · [Analysis](https://www.agentic-commerce.sh/en/news/black-friday-2026-ki-preisvergleich/)
 - **2026-11-20** · [Stripe’s Link Agent Wallet data puts travel first by spend](https://x.com/ernietedeschi/article/2123852064027471901) · [Analysis](https://www.agentic-commerce.sh/en/news/stripe-link-agent-wallet-ausgaben-reisen/)
