@@ -239,6 +239,7 @@ Announcements from the last weeks, each with the original source and a short ana
 - [bitrefill/awesome-agentic-payments](https://github.com/bitrefill/awesome-agentic-payments) - Agent payment protocols and rails.
 - [Upsonic/awesome-ucp](https://github.com/Upsonic/awesome-ucp) - UCP resources.
 - [yifeizhangcs/awesome-agentic-commerce](https://github.com/yifeizhangcs/awesome-agentic-commerce) - Research papers along the commerce pipeline.
+- [FMF Tools](https://tools.fmf-x402.workers.dev/?ref=gh-awesome-agentic-commerce-sthamann) - Catalog of remote MCP servers and pay-per-call x402 APIs for agents.
 
 ## Contributing
 
