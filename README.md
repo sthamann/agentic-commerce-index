@@ -1,15 +1,22 @@
 # Awesome Agentic Commerce: Protocols, Payments and Tools (2026) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of the protocols, SDKs, payment providers, open source implementations, research and current developments behind agentic commerce: AI agents that discover, compare and buy on behalf of people and businesses ([what is agentic commerce?](https://www.agentic-commerce.sh/en/guides/what-is-agentic-commerce/)). Updated daily.
+> A curated list of the protocols, SDKs, payment providers, open source implementations, research and current developments behind agentic commerce: AI agents that discover, compare and buy on behalf of people and businesses ([what is agentic commerce?](https://www.agentic-commerce.sh/en/guides/what-is-agentic-commerce/)). Updated daily. Vendor-neutral: it covers protocols, payments, agents, research and standards, not shop systems.
 
-Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The list is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-26**.
+Every protocol entry links to its specification, repository, licence and released version, and was checked against the published sources on **2026-11-09**. The list is generated from the data behind [agentic-commerce.sh](https://www.agentic-commerce.sh/), where each protocol has a full profile with an example flow and sources. Last updated: **2026-11-27**.
 
 ## Contents
 
 - [Start here](#start-here)
 - [Protocols](#protocols)
 - [SDKs](#sdks)
-- [Open source implementations](#open-source-implementations)
+- [Reference implementations and test suites](#reference-implementations-and-test-suites)
+- [Payments for agents](#payments-for-agents)
+- [Agent identity and verification](#agent-identity-and-verification)
+- [Shopping agents and assistants](#shopping-agents-and-assistants)
+- [Open source experiments](#open-source-experiments)
+- [Research, benchmarks and data](#research-benchmarks-and-data)
+- [Tools for merchants](#tools-for-merchants)
+- [Standards bodies and communities](#standards-bodies-and-communities)
 - [Recent developments](#recent-developments)
 - [Books and long reads](#books-and-long-reads)
 - [Related lists](#related-lists)
@@ -156,9 +163,60 @@ Official and maintained community SDKs, as listed in each protocol profile.
 
 - [ATXP SDK](https://github.com/atxp-dev/sdk) - TypeScript, JavaScript · `@atxp/client; @atxp/server; @atxp/express; @atxp/x402` · official
 
-## Open source implementations
+## Reference implementations and test suites
 
-Reference implementations and tools from the [Shopware Agentic Commerce Lab](https://github.com/agentic-commerce-lab).
+Samples, validators and conformance tests published by the protocol projects themselves.
+
+- [UCP samples](https://github.com/Universal-Commerce-Protocol/samples) - Official sample implementations for the Universal Commerce Protocol.
+- [UCP conformance tests](https://github.com/Universal-Commerce-Protocol/conformance) - Test suite to check a UCP implementation against the specification.
+- [UCP schema validator](https://github.com/Universal-Commerce-Protocol/ucp-schema) - Validates UCP documents against the published schemas.
+- [AP2](https://github.com/google-agentic-commerce/AP2) - Agent Payments Protocol specification, reference code and samples for mandates.
+- [A2A x402 extension](https://github.com/google-agentic-commerce/a2a-x402) - Adds x402 crypto payments to agent-to-agent conversations.
+- [x402](https://github.com/x402-foundation/x402) - HTTP-native payments: specification and reference packages from the x402 Foundation.
+- [Visa Trusted Agent Protocol sample](https://github.com/visa/trusted-agent-protocol) - Sample merchant and agent flow for signed, identifiable shopping agents.
+- [MCP reference servers](https://github.com/modelcontextprotocol/servers) - Reference servers that show how tools and data are exposed through MCP.
+- [A2A samples](https://github.com/a2aproject/a2a-samples) - Sample agents and clients for the Agent2Agent protocol.
+- [A2A CLI](https://github.com/a2aproject/a2a-cli) - Official command line client for testing A2A-compatible agents.
+
+## Payments for agents
+
+Developer resources from networks and payment providers for purchases that an agent initiates. A comparison is in the [payment providers guide](https://www.agentic-commerce.sh/en/guides/payment-providers-for-agent-purchases/).
+
+- [Visa Intelligent Commerce](https://developer.visa.com/capabilities/visa-intelligent-commerce) - Visa's developer programme for agent-initiated card payments. [Analysis](https://www.agentic-commerce.sh/en/news/visa-agentic-ready-akzeptanz/)
+- [Mastercard Agent Pay with Ant International](https://www.ant-intl.com/en/news/detail/mastercard-and-ant-international-advance-trusted-agentic-commerce-in-asia-pacific/) - Agent payments tested with Antom in Asia Pacific. [Analysis](https://www.agentic-commerce.sh/en/news/mastercard-antom-agent-pay-singapur/)
+- [Stripe agentic commerce docs](https://docs.stripe.com/agentic-commerce) - Stripe's documentation for selling through AI agents.
+- [Adyen agentic commerce docs](https://docs.adyen.com/online-payments/agentic-commerce) - Adyen's documentation for payments initiated by AI agents. [Analysis](https://www.agentic-commerce.sh/en/news/adyen-agentic-klarna-checkout/)
+- [PayPal Agentic Commerce Services](https://developer.paypal.com/agentic-commerce-services/about) - PayPal's developer services for agentic commerce. [Analysis](https://www.agentic-commerce.sh/en/news/paypal-agentic-virtual-card/)
+- [Lightspark Agent Accounts](https://www.lightspark.com/news/lightspark/introducing-lightspark-agent-accounts) - Payment accounts that an AI agent can hold and spend from. [Analysis](https://www.agentic-commerce.sh/en/news/lightspark-agent-accounts/)
+- [AWS Marketplace agentic payments](https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/) - Pay-per-request purchases by agents with x402 and AgentCore. [Analysis](https://www.agentic-commerce.sh/en/news/aws-marketplace-agentcore-x402/)
+
+## Agent identity and verification
+
+How a merchant recognises a legitimate shopping agent. Background in the [Web Bot Auth guide](https://www.agentic-commerce.sh/en/guides/tell-shopping-agents-from-bots/).
+
+- [IETF Web Bot Auth working group](https://datatracker.ietf.org/wg/webbotauth/about/) - Standardises how bots and agents authenticate to websites.
+- [RFC 9421 · HTTP Message Signatures](https://www.rfc-editor.org/rfc/rfc9421) - The signature mechanism that Web Bot Auth builds on.
+- [Cloudflare signed agents](https://developers.cloudflare.com/bots/concepts/bot/signed-agents/) - How signed agents are verified at the network edge.
+- [Cloudflare · Securing agentic commerce](https://blog.cloudflare.com/secure-agentic-commerce) - Agent verification together with Visa and Mastercard.
+
+## Shopping agents and assistants
+
+Consumer and business agents that search, compare and buy. Each entry links the announcement and an analysis for merchants.
+
+- [ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet/) - OpenAI connects the conversation to payment and checkout. [Analysis](https://www.agentic-commerce.sh/en/news/chatgpt-wallet-agentenzahlung/)
+- [ChatGPT Business Hub](https://openai.com/index/introducing-businesses-chatgpt/) - Business agents inside ChatGPT. [Analysis](https://www.agentic-commerce.sh/en/news/openai-business-hub-agenten/)
+- [Gemini Tasks with Google Pay](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/) - Gemini can complete purchases with Google Pay in the US. [Analysis](https://www.agentic-commerce.sh/en/news/gemini-tasks-google-pay-einkauf/)
+- [Google Wallet in AI Mode](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/) - Spending context from Google Wallet in AI Mode in Search. [Analysis](https://www.agentic-commerce.sh/en/news/google-wallet-personal-intelligence/)
+- [Alexa for Shopping](https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop) - Shopping by text message with Alexa. [Analysis](https://www.agentic-commerce.sh/en/news/alexa-text/)
+- [Meta Muse](https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/) - Meta's assistant from meal planning to grocery checkout. [Analysis](https://www.agentic-commerce.sh/en/news/meta-muse-loblaw-lebensmittel/)
+- [Poppy by Sierra](https://sierra.ai/uk/blog/releasing-poppy) - Personal agents that work with businesses through the Personal Agent Protocol. [Analysis](https://www.agentic-commerce.sh/en/news/poppy-personal-agent-protocol-1-0/)
+- [Klarna AI assistant](https://investors.klarna.com/News--Events/news/news-details/2026/From-returns-to-restaurant-bookings-Klarnas-AI-assistant-finds-the-best-product--price-buys-it-for-you-and-you-dont-pay-until-it-arrives-2026-AsJ__j3bx3/default.aspx) - An assistant that finds, buys and pays in WhatsApp and iMessage. [Analysis](https://www.agentic-commerce.sh/en/news/klarna-ki-assistent-whatsapp-imessage/)
+- [mate](https://www.einnews.com/pr_news/955148658/mate-launches-text-based-ai-shopping-agent-ahead-of-black-friday) - A shopping agent inside the messaging thread. [Analysis](https://www.agentic-commerce.sh/en/news/mate-shopping-agent-chat/)
+- [Squaremates](https://squareup.com/us/en/press/introducing-squaremates) - Square's agent for work across a seller's business. [Analysis](https://www.agentic-commerce.sh/en/news/square-squaremates-haendler-agent/)
+
+## Open source experiments
+
+Experimental prototypes and tools from the [Shopware Agentic Commerce Lab](https://github.com/agentic-commerce-lab), open source under their own licences.
 
 - [Agentic Resource Discovery](https://github.com/agentic-commerce-lab/agentic-resource-discovery-plugin) - Help an agent understand what a shop offers and how to work with it. The plugin publishes a directory of data, services and available actions.
 - [Agentic Experience Protocol](https://github.com/agentic-commerce-lab/AXP-protocol) - A product is more than a name and a price. AXP brings variants, configurations, quality signals and embedded experiences into an agent’s interface.
@@ -177,6 +235,38 @@ Reference implementations and tools from the [Shopware Agentic Commerce Lab](htt
 - [Agent in a Box](https://github.com/agentic-commerce-lab/agent-in-a-box) - A workspace for the coding agent: tools and runtime live in a development environment dedicated to the project.
 - [RFQ Bench](https://github.com/agentic-commerce-lab/rfq-bench) - Which agent negotiates better, and at what cost? RFQ Bench compares buyers, sellers and strategies in controlled B2B negotiations.
 - [Lightcone](https://github.com/agentic-commerce-lab/lightcone-webmcp-game) - A game of hide-and-seek with an agent that sees very little of its surroundings. It needs to use tools and adapt its search during play.
+
+## Research, benchmarks and data
+
+Studies and measurements with a public source. More figures with dates in [agentic commerce statistics](https://www.agentic-commerce.sh/en/guides/agentic-commerce-statistics/).
+
+- [Visa AI shopping benchmark](https://visa.gcs-web.com/news-releases/news-release-details/visa-releases-first-its-kind-industry-benchmark-ai-shopping) - 22 models tested across 15 shopping scenarios. [Analysis](https://www.agentic-commerce.sh/en/news/visa-benchmark/)
+- [a16z · Welcome to the B2A economy](https://a16z.com/welcome-to-the-b2a-economy-how-agents-buy/) - How shopping agents choose what to buy and where. [Analysis](https://www.agentic-commerce.sh/en/news/a16z-test-einkaufsagenten-haendlerwahl/)
+- [McKinsey · Who wins when AI does the shopping?](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/who-wins-when-ai-does-the-shopping-new-evidence-on-agentic-commerce) - New evidence on how agents shift purchasing.
+- [G2 · Merchant readiness for agentic commerce](https://research-hub.g2.com/merchant-readiness-for-agentic-commerce) - Can merchants identify agent orders? [Analysis](https://www.agentic-commerce.sh/en/news/g2-studie-agentenbestellungen-erkennen/)
+- [i22 · Agentic commerce readiness study](https://i22.ai/agentic-commerce-readiness-studie) - How far an AI agent gets in 48 German online shops. [Analysis](https://www.agentic-commerce.sh/en/news/i22-studie-agentic-commerce-deutschland/)
+- [Forter · AI agent order data](https://www.forter.com/blog/ai-agent-order-data/) - What early agent orders show about checkout and fraud. [Analysis](https://www.agentic-commerce.sh/en/news/forter-orders/)
+- [DHL eCommerce · AI price comparison survey](https://group.dhl.com/en/media-relations/press-releases/2026/nearly-nine-in-ten-shoppers-use-or-plan-to-use-ai-to-find-the-best-price.html) - Nearly nine in ten shoppers use or plan to use AI to find the best price. [Analysis](https://www.agentic-commerce.sh/en/news/black-friday-2026-ki-preisvergleich/)
+- [Gartner · CMOs and brand information in AI](https://www.gartner.com/en/newsroom/press-releases/2026-11-09-gartner-survey-finds-42-percent-of-cmos-are-monitoring-brand-misinformation-in-ai-generated-content) - How marketing teams monitor what AI says about their brand. [Analysis](https://www.agentic-commerce.sh/en/news/gartner-ki-markeninformationen/)
+
+## Tools for merchants
+
+Vendor-neutral checks a merchant can run before talking to providers.
+
+- [Agentic Commerce Readiness Scanner](https://scanner.agentic-commerce.org/) - 32 public checks in 8 categories: what agents can read on a shop's website.
+- [UCP conformance tests](https://github.com/Universal-Commerce-Protocol/conformance) - Check a UCP endpoint against the specification.
+- [Purchase acceptance test](https://www.agentic-commerce.sh/en/guides/testing-agent-purchases/) - Test scenarios for agent purchases, from approval to order.
+
+## Standards bodies and communities
+
+Where the open standards behind agentic commerce are developed.
+
+- [Agentic Commerce Alliance](https://www.agentic-commerce.org/) - Independent, non-profit alliance of merchants, platforms, payment providers and integrators.
+- [Agentic AI Foundation](https://aaif.io/) - Linux Foundation home for open agent standards, including MCP.
+- [W3C Web Machine Learning Community Group](https://www.w3.org/community/webmachinelearning/) - Incubates WebMCP, structured tools for agents in the browser.
+- [IETF Web Bot Auth](https://datatracker.ietf.org/wg/webbotauth/about/) - Working group for agent and bot authentication.
+- [x402 Foundation](https://github.com/x402-foundation) - Governance and working groups for x402, including identity and card acceptance.
+- [FIDO Alliance](https://fidoalliance.org/) - Standardisation work to which AP2 has been contributed.
 
 ## Recent developments
 
@@ -239,11 +329,10 @@ Announcements from the last weeks, each with the original source and a short ana
 - [bitrefill/awesome-agentic-payments](https://github.com/bitrefill/awesome-agentic-payments) - Agent payment protocols and rails.
 - [Upsonic/awesome-ucp](https://github.com/Upsonic/awesome-ucp) - UCP resources.
 - [yifeizhangcs/awesome-agentic-commerce](https://github.com/yifeizhangcs/awesome-agentic-commerce) - Research papers along the commerce pipeline.
-- [FMF Tools](https://tools.fmf-x402.workers.dev/?ref=gh-awesome-agentic-commerce-sthamann) - Catalog of remote MCP servers and pay-per-call x402 APIs for agents.
 
 ## Contributing
 
-Suggestions are welcome as issues or pull requests. A protocol needs a public specification and a named publisher. An implementation needs public source code. Please link the primary source, not a summary of it. Protocol data is maintained in one place and regenerated, so a pull request may be applied to the source data instead of merged directly.
+Suggestions are welcome as issues or pull requests. A protocol needs a public specification and a named publisher. An implementation needs public source code. Shop systems and e-commerce platforms are out of scope. Please link the primary source, not a summary of it. Protocol data is maintained in one place and regenerated, so a pull request may be applied to the source data instead of merged directly.
 
 ## Licence
 
