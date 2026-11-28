@@ -273,7 +273,7 @@ Where the open standards behind agentic commerce are developed.
 Announcements from the last weeks, each with the original source and a short analysis for merchants.
 
 - **2026-11-26** · [Mastercard and Debia plan agent shopping pilots through to pickup](https://www.prnewswire.com/apac/news-releases/debia-and-mastercard-sign-mou-to-advance-agentic-commerce-302950485.html) · [Analysis](https://www.agentic-commerce.sh/en/news/mastercard-debia-agent-pay-piloten/)
-- **2026-11-25** · [Forter tracks agent orders through store pages and commerce protocols](https://ai.forter.com/agentic-bfcm) · [Analysis](https://www.agentic-commerce.sh/en/news/forter-agentenbestellungen-checkout-wege/)
+- **2026-11-25** · [Black Friday 2026: What Forter counts as an agent order](https://ai.forter.com/agentic-bfcm) · [Analysis](https://www.agentic-commerce.sh/en/news/forter-agentenbestellungen-checkout-wege/)
 - **2026-11-25** · [Shopware checks payment options before UCP checkout completion](https://github.com/shopware/agentic-commerce/pull/380) · [Analysis](https://www.agentic-commerce.sh/en/news/shopware-ucp-checkout-zahlungsarten/)
 - **2026-11-25** · [An agent in ChatGPT buys biscotti and pays with Bitcoin](https://www.globenewswire.com/news-release/2026/11/25/3410633/0/en/agnic-ai-and-gobtc-pay-bring-bitcoin-to-ai-agent-checkout-with-a-live-mainnet-purchase-in-chatgpt.html) · [Analysis](https://www.agentic-commerce.sh/en/news/agnic-bitcoin-biscotti-chatgpt/)
 - **2026-11-24** · [Meta Muse can put together a weekly shop at Sainsbury’s](https://corporate.sainsburys.co.uk/news/press-releases/muse-from-meta-gives-customers-even-more-choice-in-how-they-shop-with-sainsbury-s/) · [Analysis](https://www.agentic-commerce.sh/en/news/meta-muse-sainsburys-wocheneinkauf/)
